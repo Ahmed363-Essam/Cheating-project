@@ -1,0 +1,55 @@
+.servs .list-unstyled
+{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.servs .list-unstyled li
+{
+    display: inline-block;
+    color: black;
+    margin-right: 14px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 12px 26px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.servs .list-unstyled li.active
+{
+    color: white;
+    background-color: var(--second-color);
+}
+
+
+
+.servs .item .img
+{
+    height: 75%;
+    overflow: hidden;
+ 
+}
+
+.servs .item .img img
+{
+    transition: all .5s;
+}
+
+
+.servs .item .img img:hover
+{
+    transform: scale(1.1);
+}
+.servs .item .h2
+{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+}
+
+
+.servs .item .lead
+{
+    margin: 0px;
+}

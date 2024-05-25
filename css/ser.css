@@ -1,0 +1,298 @@
+body
+{
+    height: auto;
+    overflow-x: hidden;
+}
+.serv
+{
+    width: 100%;
+    height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../images/serviceHeader.jpg");
+    position: relative;
+    padding: 60px 0px;
+}
+.serv .over
+{
+    opacity: 0.5;
+    background: #223a66;
+    
+}
+
+
+.serv .h1
+{
+    color: white;
+    position: relative;
+    z-index: 54;
+    width: 100%;
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 62px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-top: 145px;
+}
+
+
+
+.servs
+{
+    width: 100%;
+    padding: 50px 0px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+.servs .h1
+{
+    position: relative;
+    margin-bottom: 55px;
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.servs .container .h1::after
+{
+    content: " ";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    left: 47%;
+    bottom: -22px;
+    background-color: var( --second-color);
+}
+
+.servs .container .lead
+{
+    font-size: 16px;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+    line-height: 1.7;
+    color: #6F8BA4;
+    margin-bottom: 50px;
+}
+
+.servs .item
+{
+    width: 100%;
+    height: 150px;
+    background-color:#F4F9FC;
+    margin-bottom: 35px;
+}
+.servs .item .img
+{
+    width: 100%;
+    height: 83%;
+}
+
+.servs .item .img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.servs .item .par4
+{
+    width: 100%;
+    height: 35%;
+    padding: 15px;
+}
+
+.servs .item .par4 .h2
+{
+    font-size: 23px;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.servs .item .par4 .leaf
+{
+    color: #6F8BA4;
+
+}
+.back
+{
+    width: 100%;
+    height: 450px;
+    background-image: url("../images/Aston-Webb.jpg");
+    background-attachment: fixed;
+    background-size: cover;   
+    padding: 60px 0px;
+    position: relative;
+}
+.back .over
+{
+    opacity: 0.5;
+    background: #000000;
+    /* z-index: -1; */
+    
+}
+
+.back .h1
+{
+    width: 43%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 68px;
+    color: var(--main-color);
+    margin-left: 140px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    position: absolute;
+    z-index: 9;
+
+}
+
+.back .h1 span
+{
+    color: var(--second-color);
+}
+
+
+.back a
+{
+    display: block;
+    font-weight: 600;
+    user-select: unset !important;
+    background-color: var(--second-color);
+    border: 1px solid var(--second-color);
+    padding: 12px 0px 12px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border-radius: 42px;
+    width: 20%;
+    margin-left: 140px;
+    color: white
+}
+
+
+.back a:hover
+{
+    background-color: var(--main-color);
+}
+
+.back a i
+{
+    padding-left: 25px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+@media(max-width:1400px)
+{
+    .back .h1
+    {
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width:1120px)
+{
+    .back .h1
+    {
+        font-size: 35px;
+    }
+    .back a
+    {
+        font-size: 14px;
+        width: 25%;
+    }
+}
+
+@media(max-width:984px)
+{
+    .back .h1
+    {
+        width: 50%;        
+
+    }
+ 
+}
+@media(max-width:850px)
+{
+    .back .h1
+    {
+        width: 60%;        
+
+    }
+
+    .back a
+    {
+        width: 35%;        
+
+    }
+}
+
+@media(max-width:713px)
+{
+    .back .h1
+    {
+        width: 70%;        
+
+    }
+}
+
+@media(max-width:713px)
+{
+    .back .h1
+    {
+        width: 80%;        
+
+    }
+    .back a
+    {
+        width: 45%;        
+
+    }
+}
+
+@media(max-width:590px)
+{
+    .back .h1
+    {
+        margin-left: 100px;    
+
+    }
+    .back a
+    {
+        margin-left: 100px;
+
+    }
+}
+
+@media(max-width:535px)
+{
+    .back .h1
+    {
+        width: 85%;     
+        margin-left: 50px;       
+
+    }
+    .back a
+    {
+        width: 45%;    
+        margin-left: 50px;        
+
+    }
+}
+
+@media(max-width:503px)
+{
+    .back .h1
+    {
+        width: 90%;        
+
+    }
+    .back a
+    {
+        width: 45%;        
+
+    }
+}

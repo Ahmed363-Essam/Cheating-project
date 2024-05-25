@@ -1,0 +1,155 @@
+body
+{
+    height: auto;
+}
+.login
+{
+    width: 20%;   /* 20*/
+    height: 5%;   /* 5 */
+    position: absolute;
+    top: -40%;   /* -40*/ 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 4px 5px rgb(124, 124, 124);
+    overflow: hidden;
+
+}
+
+.login .header1
+{
+    width: 100%;
+    height: 35%;
+    background-image: url("../images/e-learning.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.login .form
+{
+    width: 90%;
+    height: 100%;
+    padding: 30px 0px;
+    margin: 1px auto;
+}
+
+
+
+.login .form input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--main-color) ;
+    outline: none;
+    box-shadow: none;
+    padding-left: 25px;
+  
+}
+
+.login .form  .form-group
+{
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.login .form  .form-group label
+{
+    margin-top: 13px;
+}
+
+.login .form  button
+{
+    margin: auto;
+    border-radius: 34px;
+    padding: 8px 24px;
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 1s;
+}
+.login .form input.a1
+{
+    position: relative;
+}
+
+i
+{
+    position: absolute;
+    top: 15px;
+    left: 20%;
+    color: var(--second-color);
+}
+
+.b1:hover
+{
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.b2
+{
+    border: 2px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+}
+
+
+a
+{
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+a:hover
+{
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+
+.form p
+{
+    margin-top: 6px;
+    color: red;
+    font-size: 13px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.form p.active
+{
+    opacity: 1;
+}
+
+.star1
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: red;
+    font: 22px;
+    font-weight: 600;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.star1.active
+{
+    opacity: 1;
+}
+.check2
+{
+    margin-right: 35%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/***************************************/
+
+@media(max-width:1495px)
+{
+    .check2
+    {
+       font-size: 13px;
+    }
+}

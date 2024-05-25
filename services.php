@@ -84,12 +84,12 @@ $Exams = $sel2->fetchAll();
       <div class="collapse navbar-collapse" id="ahmed">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
 
 
           <li class="nav-item">
-            <a class="nav-link" href="services.html">services</a>
+            <a class="nav-link" href="services.php">services</a>
           </li>
 
           </li>

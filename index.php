@@ -65,12 +65,12 @@
             <div class="collapse navbar-collapse" id="ahmed">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
-                  <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
 
 
                   <li class="nav-item">
-                    <a class="nav-link" href="services.html">services</a>
+                    <a class="nav-link" href="services.php">services</a>
                   </li>
 
                   </li>
@@ -101,7 +101,7 @@
                        We developed A Module For Attendence <span class="animate"></span>
                     </h1>
   
-                    <a href="services.html" class="btn btn-primary">
+                    <a href="services.php" class="btn btn-primary">
                       Sections
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
@@ -117,7 +117,7 @@
                       We Develope A Cheating Module <span class="animate1"> </span>
                     </h1>
       
-                    <a href="services.html" class="btn btn-primary">
+                    <a href="services.php" class="btn btn-primary">
                       Sections
                       <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </a>

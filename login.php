@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       $_SESSION["Email"] = $fet["Email"];
       $_SESSION["id"] = $fet["id"];
 
-       header("Location:dashboard/ShowSection.php");
+      header("Location:dashboard/ShowSection.php");
     } else {
       echo '<div class="alert alert-danger text-center" role="alert"> please , enter the name again or reset password </div>';
     }
@@ -79,7 +79,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div>
   -->
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+      <div class="navbar-brand" href="#"><img src="images/logo.png" alt=""></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ahmed" aria-controls="ahmed" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="ahmed">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.php">services</a>
+          </li>
+
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
 
   <div class="login">
 

@@ -80,7 +80,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($count === 1) {
           $_SESSION["exist"] = '<div class="alert alert-danger" role="alert"> the email exist </div>';
-
         } else {
           $ins = $con->prepare("INSERT INTO `admin`(First_name,Last_name,Email,Phone,Password) VALUE(:First_name,:Last_name,:Email,:Phone,:Password)");
 
@@ -144,14 +143,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+      <div class="navbar-brand" href="#"><img src="images/logo.png" alt=""></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ahmed" aria-controls="ahmed" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="ahmed">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.php">services</a>
+          </li>
+
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
 
 
   <div class="sign">
     <div class="header2"> </div>
 
     <div class="upper text-center">
-   
+
       <?php
 
 

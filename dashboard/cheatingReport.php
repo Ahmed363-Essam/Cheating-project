@@ -3,13 +3,16 @@
 require('../code/connect.php');
 
 // Number Of Cheating  Student
-$sel2 = $con->prepare("SELECT * FROM `cheating_report` WHERE `status`=0 ");
+$sel2 = $con->prepare("SELECT * FROM `cheating_report` WHERE `status`=0  AND exam_id=:exam_id");
+$sel2->bindParam("exam_id", $_GET['id']);
 $sel2->execute();
 
 $CheatingStudents = $sel2->fetchAll();
 
 // Number Of Absence Student
-$selAtd = $con->prepare("SELECT * FROM `cheating_report` WHERE `status`=1 ");
+$selAtd = $con->prepare("SELECT * FROM `cheating_report` WHERE `status`=1 AND exam_id=:exam_id");
+$selAtd->bindParam("exam_id", $_GET['id']);
+
 $selAtd->execute();
 
 $NonSheatingStudents = $selAtd->fetchAll();
